@@ -1,0 +1,94 @@
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+
+input[type=text]{
+    max-width: 70%;
+	height:20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 100px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+.img1{ width:34%;
+
+	
+}
+.media {
+       font-size:20px;
+    }
+@media screen and (max-width:760px) {
+    .media {
+       font-size:12px;
+    }
+	
+.img1{ width:100%;
+
+	
+}
+.formpad{
+	padding:10px,0px 0px,40px;
+}
+}
+.formpad{
+	padding:10px,0px 0px,0px;
+}
+ .padding {
+       padding:10px;
+    }
+   @media screen and (max-width:760px) {
+    .padding {
+       padding:0px;
+    }
+    }
+	
+.gallery { margin-top:10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+	position:absolute;
+	left:400px;
+}
+.gallery-item {
+  margin: 10px;
+  
+}
+a{ text-decoration:none;
+}
+.gall{text-align:center;
+   font-weight:bold;
+   font-size:20px;
+}
+.vas{
+	width:280px;
+	height:300px;
+}
+.mar{ border: 2px solid #c7e6e8;
+	padding:5px;
+}
+.gallery-item:hover {
+    border: 2px solid #2bd2ef;
+}
+.cd{width:40px; height:40px;
+   margin:5px;}
+   
+ .font{font-family:'Cookie';
+ }
+ .font1{ font-family: 'Sofia';
+ }

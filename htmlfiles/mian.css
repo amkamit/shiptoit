@@ -1,0 +1,251 @@
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+.li{
+	float: left;
+}
+li{ 
+	display:inline-block;
+}
+
+li a {
+    display: inline-block;
+    color:white;
+    text-align: center;
+	font-size:17px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.img1{ max-width:80%;
+height:auto;
+	padding:15px 10px 15px 10px;
+}
+input[type=text]{
+    max-width: 70%;
+	height:20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 100px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+.nav{
+  
+  background-color:#3587A4;
+  
+}
+.active {
+  color: #88CCF1;
+}
+
+.gallery { margin-top:10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+	position:absolute;
+	left:400px;
+}
+.gallery-item {
+  margin: 10px;
+  
+}
+.gall{text-align:center;
+   font-family:"MONOTYPE CORSIVA";
+   font-weight:bold;
+   font-size:20px;
+}
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+html, body {
+    height: 100%;
+}
+.one img {  
+    height: 45%;
+    width: 45%;
+}
+.dis p{ 
+       
+	display:inline-block;
+}
+.mar{ border: 2px solid #c7e6e8;
+	padding:5px;
+}
+.di{position:relative;
+    top:40px;
+	bottom:20px;
+	left:70px;
+	right:10px;
+}
+.relative{
+	    position:relative;
+		left:0px;
+		
+}
+.tex{
+	 font-size:50px;
+	 font-family:montoype corsiva;
+}
+.two img{ height:40px;
+          width:50px;
+}
+.l p{left: 80px;
+}
+.backgt{ background-color:#048e6d;
+height:54px;
+}   
+.dropbtn {
+    background-color: #048e6d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+   z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 15px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:#d4d6d8;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+  
+.vl {
+    border-right: 1px solid black;
+    height: 50px;
+    position: relative;
+    left: 90px;
+    }  
+	
+	
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 2px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position:relative;
+   
+   
+    opacity: 0;
+    transition: all 0.8s
+}
+input[type=text].cl{
+    width: 200px;
+    text-align:left;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input[type=text]:focus{
+    border: 3px solid #555;
+}
+.cd{width:40px; height:40px;
+   margin:5px;}
+.tab {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.td { height:50px;
+    padding: 5px;
+    text-align:center;    
+}
+.vas{
+	width:300px;
+	height:300px;
+}
+.gallery-item:hover {
+    border: 2px solid #2bd2ef;
+}
+.center{text-align:center;}
+.bn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.bn:hover{ background-color:#28ba44;
+}
+
+.font{
+	font-family:Modern;
+}
+.tle{
+    border: 1px solid black;
+	  border-collapse: collapse;
+    width: 100%;
+}
+
+.size{font-size:40px;
+}
+.ts{ text-align:center;
+    height: 120px;
+}
